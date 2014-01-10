@@ -52,12 +52,12 @@ procedure TForm1.Button2Click(Sender: TObject);
   var
   n,i,a,x,y,xa,xb,xc,ya,yb,yc{,r,g,b}: Integer;
 begin
-  if Edit2.Text='' then xa:=0 else xa:=strtoint(Edit2.Text);
-  if Edit2.Text='' then ya:=0 else ya:=strtoint(Edit3.Text);
-  if Edit2.Text='' then xb:=0 else xb:=strtoint(Edit4.Text);
-  if Edit2.Text='' then yb:=0 else yb:=strtoint(Edit5.Text);
-  if Edit2.Text='' then xc:=0 else xc:=strtoint(Edit6.Text);
-  if Edit2.Text='' then yc:=0 else yc:=strtoint(Edit7.Text);
+  xa:=strtoint(Edit2.Text) or 0;
+  ya:=strtoint(Edit3.Text) or 0;
+  xb:=strtoint(Edit4.Text) or 0;
+  yb:=strtoint(Edit5.Text) or 0;
+  xc:=strtoint(Edit6.Text) or 0;
+  yc:=strtoint(Edit7.Text) or 0;
   x:=xa;
   y:=ya;
 { r:=Random(256);
