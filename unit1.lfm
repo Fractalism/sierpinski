@@ -3,7 +3,7 @@ object Form1: TForm1
   Height = 529
   Top = 100
   Width = 694
-  Caption = 'Form1'
+  Caption = 'Sierpinski Triangle'
   ClientHeight = 529
   ClientWidth = 694
   LCLVersion = '1.0.8.0'
